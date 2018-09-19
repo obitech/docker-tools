@@ -18,5 +18,5 @@ Needs about 198MB on disk.
 ## Run it
 
 ```bash
-docker run -it obitech/tools bash
+docker run -it obitech/docker-tools bash
 ```
