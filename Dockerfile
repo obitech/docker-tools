@@ -3,7 +3,8 @@ LABEL maintainer=obitech
 
 RUN apt-get update \
     && apt-get install -y \
-    jq dnsutils tcpdump curl wget netcat python openssl nmap iputils-ping \
+    jq dnsutils tcpdump curl wget netcat python \
+        openssl nmap iputils-ping traceroute \
     -o DPkg::options::="--force-confdef" \
     -o DPkg::Options::="--force-confold" \
     && apt-get clean -y \
